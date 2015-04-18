@@ -24,6 +24,9 @@ function Infection(){
     };
     //until this is called, the pieces and board will render but not move.
     //this.game.start();
+    this.game = new Infinigon(options);
+    this.game.start();
+    this.game.onCollision = this.handleCollision;
 }
 
 
