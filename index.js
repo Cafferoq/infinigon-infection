@@ -39,6 +39,9 @@ Infection.prototype.newPlayer = function(id) {
             x: 1500,
             y: 2500
         },
+        weapon: {
+            cooldown: 500
+        },
         class: 'human piece',
         speed: HUMAN_SPEED
     };
@@ -88,6 +91,7 @@ Infection.prototype.handleCollision = function(pieceA,pieceB){
 };
 
 function zombieSpawn(piece){
+    piece.weapon = null;
     piece.setPosition({"x":30,"y":30});
     piece.speed = ZOMBIE_SPEED;
     piece.life = MAX_ZOMBIE_LIFE;

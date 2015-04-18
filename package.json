@@ -1,6 +1,6 @@
 {
   "name": "infinigon-infection",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A module which creates an Infinigon game in infection mode.",
   "dependencies": {
     "infinigon": "*"
