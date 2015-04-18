@@ -91,4 +91,4 @@ function zombieSpawn(piece){
     piece.class = "zombie piece";
 }
 
-module.exports = Infection();
+module.exports = Infection;
