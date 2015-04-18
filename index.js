@@ -90,3 +90,5 @@ function zombieSpawn(piece){
     piece.life = MAX_ZOMBIE_LIFE;
     piece.class = "zombie piece";
 }
+
+module.exports = Infection();
